@@ -48,3 +48,8 @@ h1 {
         font-size: 8vw;
     }
 }
+@media (min-width: 1200px) {
+    .my-heart-block {
+        margin-top: 0;
+    }
+}
