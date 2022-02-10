@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Comforter";
+    src: url("font/Comforter-Regular.ttf") format("truetype");
+    font-style: cursive; 
+}
+body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    overflow: hidden;
+
+    font-family: "Comforter", cursive;
+}
+h1 {
+    color: #8B0000;
+    font-size: 9vw;
+}
+.my-heart-block {
+    position: relative;
+    display: block;
+    width: 50%;
+    margin-top: 180px;
+}
+.my-heart {
+    display: block;
+    width: 100%;
+}
+.sweet-massage {
+    display: none;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+
+    font-size: 12vw;
+    color: #FA8072;
+}
+.active {
+    display: block;
+}
+@media (min-width: 768px) {
+    .my-heart-block {
+        width: 30%;
+        margin-top: 80px;
+    }
+    .sweet-massage {
+        font-size: 8vw;
+    }
+}
